@@ -1,9 +1,9 @@
 @charset "UTF-8";
 
-@keyframes jumpButton {
+/*@keyframes jumpButton {
     0%, 100% { transform: translateX(0); }
     100% { transform: translateX(-10px) translateY(10px); }
-}
+}*/
 
 .tudo{
    
