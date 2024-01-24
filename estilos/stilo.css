@@ -1,0 +1,297 @@
+@charset "UTF-8";
+
+@keyframes jumpButton {
+    0%, 100% { transform: translateX(0); }
+    100% { transform: translateX(-10px) translateY(10px); }
+}
+
+.tudo{
+   
+    min-width: 300px;
+    max-width: 1150px;
+    align-items: center;
+    margin: auto;
+}
+
+.parceiro{
+    
+    background-color: #A06B0B;
+}
+.par{
+   
+    font-size: 1em;
+    margin: 5px;
+    padding: 6px;
+    text-align: right;
+    color: white;
+}
+
+
+.secao1{
+    
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);   
+    padding: 10px;
+    display: flex;
+ 
+    
+   
+}
+
+
+.imagem1>img{
+    width: 450px;
+
+}
+
+.conteud{
+    letter-spacing: 2px;
+    color: black;
+    text-align: justify;
+    font-size: 1.3em;
+    margin: 30px;
+   padding-top: 60px;
+}
+.info{
+    text-align: center;
+}
+
+.info{
+    font-weight: bold;
+    
+    color: black;
+}
+
+.butao {
+    text-align: center;
+    margin: 70px;
+    
+}
+
+
+.butao a {
+    letter-spacing: 2px;
+    display: inline-block;
+    padding: 15px 30px;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    background-color: #1B3882;
+    color: #fff;
+    border-radius: 5px;
+    animation: jumpButton 3s infinite;
+}
+
+.butao a:hover {
+    background-color: #BA0905;
+    
+}
+
+h2.conteudo1{
+    font-size: 2em;
+    padding-top: 30px;
+    text-align: center;
+}
+.destaque{
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    background-color: #A06B0B;
+   
+}
+.secao2{
+
+    padding: 10px;
+    display: flex;
+    
+   
+}
+
+.imagem2>img{
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    width: 550px;
+
+}
+
+.conteudo2{
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: black;
+    text-align: justify;
+    font-size: 1.2em;
+    margin: 30px;
+   padding-top: 2px;
+}
+
+.img11{
+    margin: 10px;
+ text-align: center;
+}
+.img1{
+  
+    width: 50%;
+}
+
+.produtos{
+   
+        display: flex;
+        justify-content: space-around;
+       align-items: center;
+        flex-wrap: wrap; /* Permite que as imagens quebrem para a próxima linha */
+        max-width: 80%;
+        padding: 30px;
+              
+    
+}
+ 
+.produtos>div>a>img{
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    width: 90%;
+    padding-top: 30px;
+    border-radius: 15px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.produtos>div>a>img:hover{
+    transform: scale(1.05);
+    
+}
+
+.produtos>diV{
+   
+    padding: 30px;
+}
+
+
+.conteudo{
+    display: none;
+}
+
+
+
+.inf {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .inf1,
+  .inf2 {
+    font-size: 0.8em;
+    
+    text-align: justify;
+    
+    
+  }
+
+  .inf1>h2,
+  .inf2>h2{
+    letter-spacing: 0px;
+    margin: 5px;
+    padding: 5px;
+    background-color: #FDEBC2;
+  }
+
+  .inf1>p,
+  .inf2>p{
+    font-weight: normal;
+    letter-spacing: 0px;
+    margin: 5px;
+    padding: 5px;
+  font-size: 1.3em;
+  }
+
+
+  .img22{
+    margin-top: 30px;
+    background-color: #F3C671;
+   text-align: center;
+  }
+  .img2{
+    margin-top: 20px;
+    width: 30%;
+  }
+
+
+  footer{
+   margin-top: 10px;
+   padding: 1px;
+   
+    background-color: #A06B0B;
+  }
+  footer>p{
+    color: white;
+    text-align: center;
+    font-size: 0.9em;
+   
+  }
+  
+  footer>p>a{
+    text-decoration: none;
+  }
+
+  .kira{
+    color: white;
+    font-weight: bolder;
+  }
+  
+  .kira:hover{
+    color: #BA0905;
+  }
+
+
+@media screen and (max-width: 900px) {
+   .secao1 {
+        display: block;
+        text-align: center;
+        padding: 0px;
+    }
+
+    .produtos{
+        width: 80%;
+    }
+    .img1{
+  
+        width: 80%;
+    }
+
+    .conteudo{
+        letter-spacing: 1px;
+        text-align: justify;
+        font-size: 1.2em;
+        padding-top: 10px;
+    }
+
+    .par{
+        text-align: center;
+        
+    }
+    .butao{
+        width:80%;
+    }
+   
+    .secao2{
+
+        display: block;
+        
+    }
+
+    .imagem2>img{
+        
+        width: 100%;
+    
+    }
+
+    .inf1>h2, .inf2>h2{
+        font-size: 1.1em;
+        
+    }
+
+    
+.inf {
+    display: block;
+    
+  }
+   
+  .img2{
+   
+    width: 50%;
+  }
+}
