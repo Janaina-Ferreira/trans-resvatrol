@@ -1,9 +1,6 @@
 @charset "UTF-8";
 
-/*@keyframes jumpButton {
-    0%, 100% { transform: translateX(0); }
-    100% { transform: translateX(-10px) translateY(10px); }
-}*/
+
 
 .tudo{
    
@@ -62,8 +59,8 @@
 }
 
 .butao {
-    text-align: center;
-    margin: 70px;
+   text-align: center;
+    margin: 50px;
     
 }
 
@@ -78,11 +75,15 @@
     background-color: #1B3882;
     color: #fff;
     border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    transition: background-color 0.3s ease, transform 0.3s ease;
     
 }
 
 .butao a:hover {
     background-color: #BA0905;
+    transform: scale(1.05);
+
     
 }
 
@@ -269,7 +270,13 @@ h2.conteudo1{
         
     }
     .butao{
-        width:80%;
+       
+        width: 80%;
+    }
+
+    .butao>a{
+       
+        font-size: 0.8em;
     }
    
     .secao2{
@@ -279,7 +286,7 @@ h2.conteudo1{
     }
 
     .imagem2>img{
-        
+       
         width: 100%;
     
     }
